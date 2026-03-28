@@ -1,0 +1,22 @@
+<nav class="navbar">
+  <div class="container">
+
+    <a routerLink="/" class="logo">
+      <img src="logoDzino.svg" alt="Dzino Petrol" class="logo-img" />
+    </a>
+
+    <ul class="nav-links" [class.open]="menuOpen">
+      <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" (click)="menuOpen = false">Početna</a></li>
+      <li><a routerLink="/usluge" routerLinkActive="active" (click)="menuOpen = false">Usluge</a></li>
+      <li><a routerLink="/lokacija" routerLinkActive="active" (click)="menuOpen = false">Lokacija</a></li>
+      <li><a routerLink="/kontakt" routerLinkActive="active" (click)="menuOpen = false">Kontakt</a></li>
+    </ul>
+
+    <button class="hamburger" (click)="menuOpen = !menuOpen" [class.active]="menuOpen">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+</nav>
