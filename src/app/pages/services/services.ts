@@ -12,7 +12,7 @@ export class Services implements OnInit {
   constructor(private title: Title, private meta: Meta) {}
 
   ngOnInit() {
-  this.title.setTitle('Usluge — Dzino Petrol');
+  
   this.meta.updateTag({ name: 'description', content: 'Pranje auta, shop, kafić i pumpa za gume — sve usluge Dzino Petrol benzinske pumpe na jednom mjestu.' });
   }
 }
