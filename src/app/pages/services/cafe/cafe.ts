@@ -14,7 +14,7 @@ export class Cafe implements OnInit{
   constructor(private title: Title, private meta: Meta) {}
 
   ngOnInit() {
-  this.title.setTitle('Kafić — Dzino Petrol');
-  this.meta.updateTag({ name: 'description', content: 'Svježa kafa, topli i hladni napici te peciva u Dzino Petrol kafiću. Brza usluga za vozače na putu.' });
+    this.title.setTitle('Dzino Petrol');
+    this.meta.updateTag({ name: 'description', content: 'Svježa kafa, topli i hladni napici te peciva u Dzino Petrol kafiću. Brza usluga za vozače na putu.' });
   }
 }

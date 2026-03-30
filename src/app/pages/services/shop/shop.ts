@@ -13,7 +13,7 @@ export class Shop implements OnInit{
   constructor(private title: Title, private meta: Meta) {}
 
   ngOnInit() {
-  this.title.setTitle('Shop — Dzino Petrol');
-  this.meta.updateTag({ name: 'description', content: 'Dzino Petrol shop — auto oprema, prehrambeni proizvodi, pića, dnevna štampa i još mnogo toga.' });
+    this.title.setTitle('Dzino Petrol');
+    this.meta.updateTag({ name: 'description', content: 'Dzino Petrol shop — auto oprema, prehrambeni proizvodi, pića, dnevna štampa i još mnogo toga.' });
   }
 }

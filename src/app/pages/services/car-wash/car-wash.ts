@@ -12,7 +12,7 @@ export class CarWash implements OnInit {
   constructor(private title: Title, private meta: Meta) {}
 
   ngOnInit() {
-  this.title.setTitle('Pranje auta — Dzino Petrol Autopraonica');
-  this.meta.updateTag({ name: 'description', content: 'Profesionalna autopraonica Dzino Petrol. Vanjsko pranje, pranje sa voskom, poliranje i čišćenje unutrašnjosti.' });
+    this.title.setTitle('Dzino Petrol');
+    this.meta.updateTag({ name: 'description', content: 'Profesionalna autopraonica Dzino Petrol. Vanjsko pranje, pranje sa voskom, poliranje i čišćenje unutrašnjosti.' });
   }
 }

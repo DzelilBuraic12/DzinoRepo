@@ -11,8 +11,8 @@ export class Location implements OnInit{
   constructor(private title: Title, private meta: Meta) {}
 
   ngOnInit() {
-  
-  this.meta.updateTag({ name: 'description', content: 'Pronađite Dzino Petrol benzinsku pumpu u Maglaju (0-24h) i Kosovi (06-23h). Adrese, telefoni i Google Maps.' });
+    this.title.setTitle('Dzino Petrol');
+    this.meta.updateTag({ name: 'description', content: 'Pronađite Dzino Petrol benzinsku pumpu u Maglaju (0-24h) i Kosovi (06-23h). Adrese, telefoni i Google Maps.' });
   }
 
 }
